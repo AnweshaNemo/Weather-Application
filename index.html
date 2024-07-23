@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter your City Name" class = "input-box">
+                
+                <button class ="fa-solid fa-magnifying-glass" id="searchbtn"></button>
+            </div>
+       
+
+        </div>
+        <div class="weather-body"></div>
+        <img src="image/unnamed.png" alt="weather-image" class="weather-image">
+        <div class="weather-box">
+            <p class="temperature">0 <sup> °C</sup></p>
+            <p class="description">Light Rain</p>
+            <div class="weather-detail">
+                <div class="humidity">
+                    <i class="fa-sharp fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humidity">50%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <div class="text">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M288 32c0 17.7 14.3 32 32 32h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H352c53 0 96-43 96-96s-43-96-96-96H320c-17.7 0-32 14.3-32 32zm64 352c0 17.7 14.3 32 32 32h32c53 0 96-43 96-96s-43-96-96-96H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H384c-17.7 0-32 14.3-32 32zM128 512h32c53 0 96-43 96-96s-43-96-96-96H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H160c17.7 0 32 14.3 32 32s-14.3 32-32 32H128c-17.7 0-32 14.3-32 32s14.3 32 32 32z"/></svg>   
+                        <span id ="wind-speed">20km/hr</span>
+                        <p>wind-speed</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+       
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/be4f7a4058.js" crossorigin="anonymous"></script>
+</body>
+</html>
